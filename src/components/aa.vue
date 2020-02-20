@@ -1,16 +1,12 @@
 <template>
   <div>
-    <img class="rounded" :src="img" :alt="imgAlt" />
-    <div class="mt-2">
-      <div>
-        <div class="text-xs text-gray-600 uppercase font-bold">{{ eyebrow }}</div>
-        <div class="font-bold text-gray-700 leading-snug">
-          <a :href="url" class="hover:underline">{{ title }}</a>
-        </div>
-        <div class="mt-2 text-sm text-gray-600">{{ pricing }}</div>
-      </div>
-    </div>
-    {{ message }}
+    <body class="font-body text-body">
+      <p class="font-sans text-lg">dsfhdslkfdksfldl</p>
+      <p class="text-green-200">12</p>
+      <p class="font-mono text-lg">Hello world</p>
+      <p class="text-yellow-600">12</p>
+      <p class="font-mono text-orange-400">{{ message }}</p>
+    </body>
   </div>
 </template>
 
